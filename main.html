@@ -7,18 +7,17 @@
 </head>
 
 <body>
-	<form action="https://course.acciojob.com" method="post">
+	<form  method="post">
 		<label for="name">Name*</label>
-		<input type ="taxt" id="name" name="Full_Name" required><br>
+		<input type ="taxt" id="name"  required><br>
 		<label for="email">Email*</label>
-		<input type ="eamil" id="email" name="Email" required><br>
-		<span>Gender*:</span>
-		<label for="">Male</label>
-		<input type="radio" id=""name="male/female" required>
-		<label for="">Female</label>
-		<input type="radio" id=""name="female/female" required>
-		<span>Laptop Brand:</span>
-		<select>
+		<input type ="eamil" id="email"  required><br>
+		<label for="gender_m">Male*</label>
+		<input type="radio" id="gender_m"name="gender" required>
+		<label for="gender_f">Female*</label>
+		<input type="radio" id="gender_f"name="gender" required>
+		<label for="laptop">Laptop Brands</label>
+		<select id="laptop" name="laptop">
 			<option>Apple</option>
 			<option>Asus</option>
 			<option> HP</option>
@@ -26,11 +25,11 @@
 		<label for="age">Age*</label>
 		<input type="number" id="age" name="age" required><br>
 		<label for="dob">Date of Birth*</label>
-		<input type="date" id="dob"name="dob" required><br>
+		<input type="date" id="dob" required><br>
 		<label for="password">Password*</label>
-		<input type="password" id="password"name="password" required>
+		<input type="password" id="password" required>
 		<a href="#" >Portfolio URL</a>
-		<button>Submit Button</button>
+		<input type="submit" >
 	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
